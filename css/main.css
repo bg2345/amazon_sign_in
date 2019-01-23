@@ -1,0 +1,51 @@
+
+
+.top-logo {
+  display: block;
+  margin: 10px auto;
+}
+
+.extra-margin-sm {
+  margin: 15px
+}
+
+.form-style {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+input[type="email"]:focus {
+  border: 3px solid orange;
+}
+
+input[type="password"]:focus {
+  border: 3px solid orange;
+}
+
+form button {
+  width: 100%;
+}
+
+.btn-primary {
+  color: black;
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+.btn-primary:hover {
+color: black;
+  background-color: gray;
+}
+
+.cal-md-4 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.margin-lg {
+  margin-top:;
+}
+
+footer {
+  text-align: center;
+}
