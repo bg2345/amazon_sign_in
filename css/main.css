@@ -12,6 +12,21 @@
 .form-style {
   border: 1px solid lightgray;
   border-radius: 4px;
+  padding: 30px;
+  font-size: 80%;
+  /* margin: 30px; */
+}
+
+.label-bold {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid gray;
+}
+
+button {
+  border: 1px solid black;
 }
 
 input[type="email"]:focus {
@@ -22,14 +37,30 @@ input[type="password"]:focus {
   border: 3px solid orange;
 }
 
+.float-right {
+  float: right;
+}
+
 form button {
   width: 100%;
+  border: 1px solid black;
+}
+
+.checkbox {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .btn-primary {
   color: black;
   background-color: lightgray;
   border-radius: 3px;
+  font-size: 95%;
+}
+
+.new-to-amazon {
+  padding-bottom: 10px;
+  font-size: 90%;
 }
 
 .btn-primary:hover {
@@ -37,15 +68,35 @@ color: black;
   background-color: gray;
 }
 
-.cal-md-4 {
-  margin-top: 100px;
-  text-align: center;
+.line {
+  margin: 25px 0;
+   height: 2px;
+   background: black;
+   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, lightgray));
 }
 
-.margin-lg {
-  margin-top:;
+/* .cal-md-4 {
+  margin-top: 100px;
+  text-align: center;
+} */
+
+.bottom-links {
+  text-align: center;
+  padding-left: 475px;
+  padding-right: 475px;
+  font-size: 70%;
+  padding-bottom: 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+.new-to-amazon {
+  text-align: center;
 }
 
 footer {
   text-align: center;
+  font-size: 90%
 }
